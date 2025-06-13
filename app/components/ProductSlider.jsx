@@ -8,7 +8,7 @@ import "slick-carousel/slick/slick-theme.css";
 import { FiArrowLeft, FiArrowRight } from "react-icons/fi";
 
 import ProductCard from "../components/ProductCard";
-import llight from "../images/llight 1.png";
+import llight from "../images/light-1.png";
 
 const products = [
   { title: "Ceiling Light", price: "75.00", oldPrice: "82.00", image: llight },

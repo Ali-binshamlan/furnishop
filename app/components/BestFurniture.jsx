@@ -2,7 +2,7 @@
 "use client";
 import Image from "next/image";
 import { motion } from "framer-motion";
-import FurnitureImage from "../images/image 1.png";
+import FurnitureImage from "../images/image-1.png";
 
 const fadeInLeft = {
   hidden: { opacity: 0, x: -50 },

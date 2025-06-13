@@ -1,7 +1,7 @@
 
 "use client";
 import Image from "next/image";
-import furnitureImage from "../images/Insert Image Here.png";
+import furnitureImage from "../images/insert-image-here.png";
 import { FaCheckCircle } from "react-icons/fa";
 import { motion } from "framer-motion";
 

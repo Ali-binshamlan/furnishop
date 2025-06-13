@@ -3,8 +3,8 @@
 import { FiArrowLeft, FiArrowRight } from "react-icons/fi";
 import Image from "next/image";
 import { motion } from "framer-motion";
-import personImg from "../images/Ellipse 202.png";
-import testimonialImg from "../images/Rectangle 925.png";
+import personImg from "../images/Ellipse202.png";
+import testimonialImg from "../images/Rectangle925.png";
 
 const fadeInLeft = {
   hidden: { opacity: 0, x: -50 },

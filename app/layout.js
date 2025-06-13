@@ -4,7 +4,7 @@ import "./globals.css";
 const saira = Saira({
   variable: "--font-saira",
   subsets: ["latin"],
-  weight: ["400", "700"],  // اختياري: أوزان الخط
+  weight: ["400", "700"],
 });
 
 const geistMono = Geist_Mono({
