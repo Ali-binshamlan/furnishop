@@ -14,28 +14,28 @@ const ProductCard = ({ image, title, price, oldPrice }) => {
     >
       {/* Image + Button Area */}
       <div
-        className="
-          relative w-[140px] h-[150px] mx-auto border border-gray-200 
-          rounded-md overflow-hidden
-          md:w-[275px] md:h-[282px]
-        "
-      >
-        <Image
-          src={image}
-          alt={title}
-          fill
-          className="object-contain rounded-md"
-        />
-        <button
-          className="
-            absolute bottom-2 right-2 w-7 h-7 flex items-center justify-center 
-            rounded-full border border-gray-200 bg-gray-100 hover:bg-gray-200 
-            transition
-          "
-        >
-          <FiPlus size={16} />
-        </button>
-      </div>
+  className="
+    relative w-[120px] h-[130px] mx-auto border border-gray-200 
+    rounded-md overflow-hidden
+    md:w-[240px] md:h-[250px]
+  "
+>
+  <img
+    src={image}
+    alt={title}
+    className="object-contain rounded-md w-full h-full"
+  />
+  <button
+    className="
+      absolute bottom-2 right-2 w-7 h-7 flex items-center justify-center 
+      rounded-full border border-gray-200 bg-gray-100 hover:bg-gray-200 
+      transition
+    "
+  >
+    <FiPlus size={16} />
+  </button>
+</div>
+
 
       {/* Text Area */}
       <div className="mt-3 px-2">
