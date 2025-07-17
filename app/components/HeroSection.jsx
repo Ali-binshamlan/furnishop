@@ -2,7 +2,7 @@
 import { useState, useEffect } from "react";
 import { motion } from "framer-motion";
 import Backgrund from "../images/modern-living-room-interior-2021-09-02-08-41-17-utc.png";
-import Backgrund_sm from "../images/Frame-a.png";
+import Backgrund_sm from "../images/frame-a.png";
 import { HiMenu, HiX } from "react-icons/hi";
 
 export default function HeroSection() {
