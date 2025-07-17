@@ -186,7 +186,7 @@ const Footer = () => {
 
         {/* Copyright notice */}
         <div className="mt-16 text-center text-gray-400 text-xs">
-          © NameBrand 2022 - All Rights Reserved
+          © Eng: Ali Bin Shamlan
         </div>
       </div>
     </footer>
